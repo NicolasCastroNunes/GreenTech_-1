@@ -32,7 +32,9 @@ A GreenTech nasceu com o propósito de **impulsionar a transformação verde no 
 - Elaboração de planos de ação personalizados
 - Suporte na obtenção de selos e certificações verdes
 
-###🤝 Contribuindo
+--- 
+
+### 🤝 Contribuindo
 
 Este repositório é aberto para sugestões, feedbacks e colaborações.
 - Se você tem ideias, sugestões de melhoria ou quer contribuir com algum código ou material:
@@ -40,10 +42,10 @@ Este repositório é aberto para sugestões, feedbacks e colaborações.
 - Crie uma branch com sua feature ou melhoria
 - Envie um Pull Request para análise
 
-###📄 Licença
+### 📄 Licença
 Este projeto é licenciado sob a MIT License.
 
-###📬 Contato
+### 📬 Contato
 - 🌐 Site oficial: www.greentech.com
 - 📧 Email: contato@greentech.com
 - 📱 LinkedIn: linkedin.com/company/greentech
