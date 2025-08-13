@@ -42,8 +42,12 @@ Este repositório é aberto para sugestões, feedbacks e colaborações.
 - Crie uma branch com sua feature ou melhoria
 - Envie um Pull Request para análise
 
+--- 
+
 ### 📄 Licença
 Este projeto é licenciado sob a MIT License.
+
+--- 
 
 ### 📬 Contato
 - 🌐 Site oficial: www.greentech.com
