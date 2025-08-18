@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import "./styles/home.css";
-import './App.css'
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
     <div>
       {/* Cabeçalho */}
-      <header className="topo">
+      <header>
         <h1 className="logo">GreenTech</h1>
-        <nav className="menu">
+        <nav>
           <ul>
             <li><a href="#">Login</a></li>
             <li><a href="#">Localização</a></li>
@@ -20,68 +19,61 @@ function App() {
       {/* Seção Principal */}
       <main>
         <section className="destaque">
-          <article className="noticia">
-            <h2>Notícia importante!</h2>
-            <p>Lorem ipsum dolor sit amet...</p>
-          </article>
-
-          <article className="principal">
-            <h2>🌿 GREEN TECH</h2>
-            <h3>Soluções ecológicas para um futuro sustentável</h3>
-            <ul>
-              <li>Tecnologia a favor do planeta</li>
-              <li>Sustentabilidade para grandes empresas</li>
-            </ul>
-            <ul className="beneficios">
-              <li>✔ Eficiência ecológica</li>
-              <li>✔ Inovação com responsabilidade</li>
-              <li>✔ Impacto positivo real</li>
-            </ul>
-            <p><strong>Vamos transformar o mundo juntos.</strong></p>
-            <p>Entre em contato e saiba como levar sustentabilidade para sua empresa.</p>
-          </article>
-
-          <article className="sobre">
-            <h2>Sobre nós</h2>
-            <p>Lorem ipsum dolor sit amet...</p>
-          </article>
+          <h2>Notícia importante!</h2>
+          <p>Lorem ipsum dolor sit amet...</p>
         </section>
 
-        {/* Seção de Serviços */}
-        <section className="servicos">
-          <article className="noticia">
-            <h2>Notícia importante!</h2>
-            <p>Lorem ipsum dolor sit amet...</p>
-          </article>
+        <section className="noticia">
+          <h2>🌿 GREEN TECH</h2>
+          <h3>Soluções ecológicas para um futuro sustentável</h3>
+          <ul>
+            <li>Tecnologia a favor do planeta</li>
+            <li>Sustentabilidade para grandes empresas</li>
+          </ul>
+          <ul>
+            <li>✔ Eficiência ecológica</li>
+            <li>✔ Inovação com responsabilidade</li>
+            <li>✔ Impacto positivo real</li>
+          </ul>
+          <p><strong>Vamos transformar o mundo juntos.</strong></p>
+          <p>Entre em contato e saiba como levar sustentabilidade para sua empresa.</p>
+        </section>
 
-          <div className="cards">
-            <div className="card">
-              <ul>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Instalações</a></li>
-                <li><a href="#">Trabalhe Conosco</a></li>
-                <li><a href="#">Sistemas Sustentáveis</a></li>
-              </ul>
-            </div>
-            <div className="card">
-              <ul>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Instalações</a></li>
-                <li><a href="#">Trabalhe Conosco</a></li>
-                <li><a href="#">Sistemas Sustentáveis</a></li>
-              </ul>
-            </div>
-            <div className="card">
-              <ul>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Instalações</a></li>
-                <li><a href="#">Trabalhe Conosco</a></li>
-                <li><a href="#">Sistemas Sustentáveis</a></li>
-              </ul>
-            </div>
-          </div>
+        <section className="sobre">
+          <h2>Sobre nós</h2>
+          <p>Lorem ipsum dolor sit amet...</p>
         </section>
       </main>
+
+      {/* Seção de Serviços */}
+      <section className="servicos">
+        <div className="cards">
+          <div className="card">
+            <ul>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Instalações</a></li>
+              <li><a href="#">Trabalhe Conosco</a></li>
+              <li><a href="#">Sistemas Sustentáveis</a></li>
+            </ul>
+          </div>
+          <div className="card">
+            <ul>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Instalações</a></li>
+              <li><a href="#">Trabalhe Conosco</a></li>
+              <li><a href="#">Sistemas Sustentáveis</a></li>
+            </ul>
+          </div>
+          <div className="card">
+            <ul>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Instalações</a></li>
+              <li><a href="#">Trabalhe Conosco</a></li>
+              <li><a href="#">Sistemas Sustentáveis</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {/* Rodapé */}
       <footer>
@@ -92,4 +84,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
