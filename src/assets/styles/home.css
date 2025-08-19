@@ -14,10 +14,12 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #00796B;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    display: flex;
+    justify-content: right;
+    background-color: #00796B;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 header .logo {
